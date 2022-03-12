@@ -6,6 +6,6 @@
   </component>
   <component name="InlayHintsSettings">
     <option name="enabled" value="false" />
-    <option name="lastViewedProviderKeyId" value="MarkdownTableInlayProviderSettingsKey" />
+    <option name="lastViewedProviderKeyId" value="kotlin.ranges.hints" />
   </component>
 </application>
