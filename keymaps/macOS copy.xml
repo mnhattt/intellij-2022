@@ -1,4 +1,8 @@
 <keymap version="1" name="macOS copy" parent="Mac OS X 10.5+">
+  <action id="ActivateFindToolWindow" />
+  <action id="CodeCompletion">
+    <keyboard-shortcut first-keystroke="meta 3" />
+  </action>
   <action id="Debugger.EditFrameSource">
     <keyboard-shortcut first-keystroke="f4" />
   </action>
@@ -24,6 +28,7 @@
   <action id="ExternalSystem.OpenConfig">
     <keyboard-shortcut first-keystroke="f4" />
   </action>
+  <action id="FileChooser.GotoModule" />
   <action id="MoveLineDown">
     <keyboard-shortcut first-keystroke="shift alt down" />
     <keyboard-shortcut first-keystroke="meta down" />
