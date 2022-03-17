@@ -29,6 +29,9 @@
     <keyboard-shortcut first-keystroke="f4" />
   </action>
   <action id="FileChooser.GotoModule" />
+  <action id="Kotlin.NewFile">
+    <keyboard-shortcut first-keystroke="shift meta n" />
+  </action>
   <action id="MoveLineDown">
     <keyboard-shortcut first-keystroke="shift alt down" />
     <keyboard-shortcut first-keystroke="meta down" />
@@ -41,6 +44,7 @@
   <action id="NavBar-navigate">
     <keyboard-shortcut first-keystroke="f4" />
   </action>
+  <action id="NewScratchFile" />
   <action id="OpenModuleSettings">
     <keyboard-shortcut first-keystroke="f4" />
   </action>
