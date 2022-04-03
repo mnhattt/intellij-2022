@@ -32,6 +32,9 @@
   <action id="Kotlin.NewFile">
     <keyboard-shortcut first-keystroke="shift meta n" />
   </action>
+  <action id="KotlinConsoleREPL">
+    <keyboard-shortcut first-keystroke="shift meta e" />
+  </action>
   <action id="MoveLineDown">
     <keyboard-shortcut first-keystroke="shift alt down" />
     <keyboard-shortcut first-keystroke="meta down" />
@@ -51,6 +54,7 @@
   <action id="ProjectViewEditSource">
     <keyboard-shortcut first-keystroke="f4" />
   </action>
+  <action id="RecentLocations" />
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="meta alt l" />
     <keyboard-shortcut first-keystroke="ctrl meta f" />
