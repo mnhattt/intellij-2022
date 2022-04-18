@@ -38,7 +38,9 @@
     <keyboard-shortcut first-keystroke="meta alt enter" />
     <keyboard-shortcut first-keystroke="shift meta enter" />
   </action>
-  <action id="EditorUnSelectWord" />
+  <action id="EditorUnSelectWord">
+    <keyboard-shortcut first-keystroke="meta down" />
+  </action>
   <action id="ExternalSystem.OpenConfig">
     <keyboard-shortcut first-keystroke="f4" />
   </action>
@@ -56,7 +58,6 @@
   <action id="MethodOverloadSwitchUp" />
   <action id="MoveLineDown">
     <keyboard-shortcut first-keystroke="shift alt down" />
-    <keyboard-shortcut first-keystroke="meta down" />
     <keyboard-shortcut first-keystroke="alt down" />
   </action>
   <action id="MoveLineUp">
@@ -106,5 +107,9 @@
   </action>
   <action id="XDebugger.JumpToSource">
     <keyboard-shortcut first-keystroke="f4" />
+  </action>
+  <action id="XDebugger.MoveWatchDown">
+    <keyboard-shortcut first-keystroke="shift alt down" />
+    <keyboard-shortcut first-keystroke="alt down" />
   </action>
 </keymap>
