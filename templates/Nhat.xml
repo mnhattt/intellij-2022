@@ -5,4 +5,9 @@
       <option name="KOTLIN" value="true" />
     </context>
   </template>
+  <template name="ipr" value="import kotlinx.coroutines.*" description="import coroutine" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
 </templateSet>
