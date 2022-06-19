@@ -38,6 +38,9 @@
     <keyboard-shortcut first-keystroke="meta alt enter" />
     <keyboard-shortcut first-keystroke="shift meta enter" />
   </action>
+  <action id="EditorToggleShowGutterIcons">
+    <keyboard-shortcut first-keystroke="alt back_slash" />
+  </action>
   <action id="EditorUnSelectWord">
     <keyboard-shortcut first-keystroke="meta down" />
   </action>
