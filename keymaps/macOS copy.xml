@@ -53,6 +53,10 @@
   </action>
   <action id="FileChooser.GotoModule" />
   <action id="FileChooserList.LevelUp" />
+  <action id="HideActiveWindow">
+    <keyboard-shortcut first-keystroke="shift escape" />
+    <keyboard-shortcut first-keystroke="ctrl escape" />
+  </action>
   <action id="Kotlin.NewFile">
     <keyboard-shortcut first-keystroke="shift meta n" />
   </action>
