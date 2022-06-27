@@ -8,9 +8,12 @@
   <action id="CodeCompletion">
     <keyboard-shortcut first-keystroke="meta 3" />
   </action>
-  <action id="Compile">
-    <keyboard-shortcut first-keystroke="shift meta f9" />
+  <action id="CompileDirty">
+    <keyboard-shortcut first-keystroke="meta f9" />
     <keyboard-shortcut first-keystroke="alt r" />
+  </action>
+  <action id="CompileFile">
+    <keyboard-shortcut first-keystroke="shift meta f9" />
   </action>
   <action id="Debugger.EditFrameSource">
     <keyboard-shortcut first-keystroke="f4" />
@@ -82,6 +85,9 @@
   <action id="NewScratchFile" />
   <action id="OpenModuleSettings">
     <keyboard-shortcut first-keystroke="f4" />
+  </action>
+  <action id="PackageFile">
+    <keyboard-shortcut first-keystroke="shift meta f9" />
   </action>
   <action id="ProjectViewEditSource">
     <keyboard-shortcut first-keystroke="f4" />
