@@ -1,0 +1,8 @@
+<templateSet group="Kotlin-Spring">
+  <template name="str" value="var $AAA$: String? = null" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="AAA" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+</templateSet>
