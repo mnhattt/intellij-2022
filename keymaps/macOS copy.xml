@@ -26,6 +26,9 @@
     <keyboard-shortcut first-keystroke="delete" />
     <keyboard-shortcut first-keystroke="back_space" />
   </action>
+  <action id="CloseAllEditors">
+    <keyboard-shortcut first-keystroke="shift meta w" />
+  </action>
   <action id="CodeCompletion">
     <keyboard-shortcut first-keystroke="meta 3" />
   </action>
@@ -116,6 +119,7 @@
     <keyboard-shortcut first-keystroke="meta close_bracket" />
     <mouse-shortcut keystroke="button5" />
   </action>
+  <action id="GotoTest" />
   <action id="HideActiveWindow">
     <keyboard-shortcut first-keystroke="shift escape" />
     <keyboard-shortcut first-keystroke="ctrl escape" />
@@ -130,6 +134,9 @@
   <action id="List-selectLastRow" />
   <action id="MethodOverloadSwitchDown" />
   <action id="MethodOverloadSwitchUp" />
+  <action id="MoveEditorToOppositeTabGroup">
+    <keyboard-shortcut first-keystroke="ctrl meta page_down" />
+  </action>
   <action id="MoveLineDown">
     <keyboard-shortcut first-keystroke="shift alt down" />
     <keyboard-shortcut first-keystroke="alt down" />
@@ -158,6 +165,9 @@
     <keyboard-shortcut first-keystroke="ctrl meta f" />
   </action>
   <action id="Refresh" />
+  <action id="ReopenClosedTab">
+    <keyboard-shortcut first-keystroke="shift meta t" />
+  </action>
   <action id="Replace" />
   <action id="Rerun" />
   <action id="Run">
@@ -169,6 +179,7 @@
   <action id="SearchEverywhere.NavigateToPrevGroup">
     <keyboard-shortcut first-keystroke="page_up" />
   </action>
+  <action id="ServiceView.ShowServices" />
   <action id="ShowNavBar">
     <keyboard-shortcut first-keystroke="alt home" />
   </action>
