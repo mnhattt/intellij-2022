@@ -3,7 +3,16 @@
     <keyboard-shortcut first-keystroke="delete" />
     <keyboard-shortcut first-keystroke="back_space" />
   </action>
+  <action id="ActivateBookmarksToolWindow" />
+  <action id="ActivateDatabaseToolWindow">
+    <keyboard-shortcut first-keystroke="meta 4" />
+  </action>
   <action id="ActivateFindToolWindow" />
+  <action id="ActivateRunToolWindow" />
+  <action id="ActivateTerminalToolWindow">
+    <keyboard-shortcut first-keystroke="alt f12" />
+    <keyboard-shortcut first-keystroke="meta 2" />
+  </action>
   <action id="Arrangement.Alias.Rule.Match.Condition.Move.Down" />
   <action id="Arrangement.Rule.Group.Condition.Move.Down" />
   <action id="Arrangement.Rule.Group.Condition.Move.Up" />
@@ -43,6 +52,7 @@
   <action id="DomElementsTreeView.GotoDomElementDeclarationAction">
     <keyboard-shortcut first-keystroke="f4" />
   </action>
+  <action id="DuplicatesForm.SendToRight" />
   <action id="EditSource">
     <keyboard-shortcut first-keystroke="f4" />
   </action>
@@ -100,6 +110,7 @@
     <keyboard-shortcut first-keystroke="f4" />
   </action>
   <action id="FileChooser.GotoModule" />
+  <action id="FileChooser.GotoProject" />
   <action id="FileChooserList.LevelUp" />
   <action id="Forward">
     <keyboard-shortcut first-keystroke="meta close_bracket" />
