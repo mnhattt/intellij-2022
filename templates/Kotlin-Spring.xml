@@ -5,4 +5,10 @@
       <option name="KOTLIN" value="true" />
     </context>
   </template>
+  <template name="ent" value="@Entity&#10;class $VAR$ {&#10;    @Id&#10;    @GeneratedValue&#10;    var id: Long? = null&#10;}" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
 </templateSet>
