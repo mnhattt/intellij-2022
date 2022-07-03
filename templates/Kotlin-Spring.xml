@@ -11,4 +11,11 @@
       <option name="KOTLIN" value="true" />
     </context>
   </template>
+  <template name="repo" value="interface $VAR1$ : CrudRepository&lt;$VAR2$, Long&gt; {}" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
 </templateSet>
