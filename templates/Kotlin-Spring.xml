@@ -1,0 +1,21 @@
+<templateSet group="Kotlin-Spring">
+  <template name="str" value="var $AAA$: String? = null" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="AAA" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="ent" value="@Entity&#10;class $VAR$ {&#10;    @Id&#10;    @GeneratedValue&#10;    var id: Long? = null&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="repo" value="interface $VAR1$ : CrudRepository&lt;$VAR2$, Long&gt; {}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+</templateSet>

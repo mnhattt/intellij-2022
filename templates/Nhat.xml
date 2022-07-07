@@ -1,0 +1,18 @@
+<templateSet group="Nhat">
+  <template name="th" value="${Thread.currentThread().name}" description="get current thread name" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="ipc" value="import kotlinx.coroutines.*" description="import coroutine" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="pr" value="println(&quot;$END$&quot;)" description="print" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+</templateSet>
