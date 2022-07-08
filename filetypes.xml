@@ -10,10 +10,10 @@
       <mapping ext="mustache" type="XHTML" />
       <mapping pattern="bootstrap-**.y**ml" type="YAML" />
       <mapping pattern="application-**.y**ml" type="YAML" />
-      <mapping pattern="application.yml" type="YAML" />
-      <mapping pattern="application.yaml" type="YAML" />
       <mapping pattern="bootstrap.yaml" type="YAML" />
       <mapping pattern="bootstrap.yml" type="YAML" />
+      <mapping pattern="application.yml" type="YAML" />
+      <mapping pattern="application.yaml" type="YAML" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
       <removed_mapping ext="fxml" approved="true" type="XML" />
       <removed_mapping ext="psd" approved="true" type="Image" />
