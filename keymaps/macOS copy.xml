@@ -201,6 +201,10 @@
   <action id="ShowSearchHistory" />
   <action id="SmartSelect" />
   <action id="SmartUnSelect" />
+  <action id="Stop">
+    <keyboard-shortcut first-keystroke="meta f2" />
+    <keyboard-shortcut first-keystroke="alt s" />
+  </action>
   <action id="ToggleFullScreen" />
   <action id="UnselectPreviousOccurrence">
     <keyboard-shortcut first-keystroke="shift ctrl g" />
