@@ -18,7 +18,7 @@
       <option name="KOTLIN" value="true" />
     </context>
   </template>
-  <template name="beans" value="val beans = beans { &#10;    bean { &#10;        CommandLineRunner {&#10;            $END$&#10;        }&#10;    }&#10;}" toReformat="false" toShortenFQNames="true">
+  <template name="beans" value="val beans = beans { &#10;    bean { &#10;        CommandLineRunner {&#10;            $END$&#10;        }&#10;    }&#10;}" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="KOTLIN" value="true" />
     </context>
