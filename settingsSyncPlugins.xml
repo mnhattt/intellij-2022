@@ -163,6 +163,7 @@
                   <option value="com.intellij.modules.platform" />
                 </set>
               </option>
+              <option name="enabled" value="false" />
             </PluginData>
           </value>
         </entry>
@@ -318,6 +319,19 @@
             </PluginData>
           </value>
         </entry>
+        <entry key="com.intellij.dsm">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.modules.java" />
+                  <option value="com.intellij.modules.ultimate" />
+                </set>
+              </option>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
         <entry key="com.intellij.freemarker">
           <value>
             <PluginData>
@@ -326,6 +340,13 @@
           </value>
         </entry>
         <entry key="com.intellij.grpc">
+          <value>
+            <PluginData>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="com.intellij.jakarta.nosql">
           <value>
             <PluginData>
               <option name="enabled" value="false" />
@@ -401,9 +422,7 @@
         </entry>
         <entry key="com.intellij.microservices.ui">
           <value>
-            <PluginData>
-              <option name="enabled" value="false" />
-            </PluginData>
+            <PluginData />
           </value>
         </entry>
         <entry key="com.intellij.plugins.eclipsekeymap">
@@ -448,7 +467,9 @@
         </entry>
         <entry key="com.intellij.searcheverywhere.ml">
           <value>
-            <PluginData />
+            <PluginData>
+              <option name="enabled" value="false" />
+            </PluginData>
           </value>
         </entry>
         <entry key="com.intellij.spring.cloud">
@@ -868,6 +889,7 @@
                   <option value="com.intellij.modules.java" />
                 </set>
               </option>
+              <option name="enabled" value="false" />
             </PluginData>
           </value>
         </entry>
@@ -895,6 +917,18 @@
         <entry key="org.jetbrains.plugins.haml">
           <value>
             <PluginData>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="org.jetbrains.plugins.javaFX">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.modules.java" />
+                </set>
+              </option>
               <option name="enabled" value="false" />
             </PluginData>
           </value>
