@@ -29,4 +29,12 @@
       <option name="KOTLIN" value="true" />
     </context>
   </template>
+  <template name="many" value="@OneToMany(mappedBy = &quot;$VAR1$&quot;, cascade = [CascadeType.PERSIST])&#10;var $VAR3$: MutableList&lt;$VAR2$&gt; = mutableListOf()" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR3" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
 </templateSet>
