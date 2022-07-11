@@ -23,7 +23,7 @@
       <option name="KOTLIN" value="true" />
     </context>
   </template>
-  <template name="ctrl" value="@RestController&#10;class $START$ {&#10;    &#10;    @GetMapping&#10;    fun index(): String {&#10;        return &quot;hello&quot;&#10;    }&#10;}&#10;" toReformat="false" toShortenFQNames="true">
+  <template name="ctrl" value="@RestController&#10;class $START$ {&#10;    &#10;    @GetMapping&#10;    fun index(): String {&#10;        return &quot;hello&quot;&#10;    }&#10;}&#10;" description="" toReformat="false" toShortenFQNames="true">
     <variable name="START" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="KOTLIN" value="true" />
