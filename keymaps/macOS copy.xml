@@ -60,6 +60,14 @@
     <keyboard-shortcut first-keystroke="f4" />
   </action>
   <action id="EditorAddCaretPerSelectedLine" />
+  <action id="EditorCodeBlockEnd">
+    <keyboard-shortcut first-keystroke="meta alt close_bracket" />
+    <keyboard-shortcut first-keystroke="alt right" />
+  </action>
+  <action id="EditorCodeBlockStart">
+    <keyboard-shortcut first-keystroke="meta alt open_bracket" />
+    <keyboard-shortcut first-keystroke="alt left" />
+  </action>
   <action id="EditorCompleteStatement" />
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="alt x" />
